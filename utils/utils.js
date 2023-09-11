@@ -11,7 +11,7 @@ const getCurrentUTCWithValidation = () => {
 
   // Check if the time difference is within the acceptable range
   if (timeDifference <= maxDifference) {
-    return currentUTC;
+    return currentUTC.split('.')[0]+"Z";
   } else {
     return 'Time validation failed';
   }
