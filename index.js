@@ -16,7 +16,7 @@ app.get('/info', (req, res) => {
     current_day: getCurrentWeekDay(),
     utc_time: getCurrentUTCWithValidation(),
     track,
-    github_file_url: 'https://github.com/DimTony/HNGtaskONE/demo/index.js',
+    github_file_url: 'https://github.com/DimTony/HNGtaskONE/blob/master/index.js',
     github_repo_url: 'https://github.com/DimTony/HNGtaskONE',
     status_code: 200
   };
