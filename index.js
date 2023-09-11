@@ -3,7 +3,7 @@ const { getCurrentWeekDay, getCurrentUTCWithValidation } = require('./utils/util
 const app = express();
 const port = 3000;
 
-app.get('/info', (req, res) => {
+app.get('/app', (req, res) => {
   const { slack_name, track } = req.query;
 
   // Check if both parameters are provided
