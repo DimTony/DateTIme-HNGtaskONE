@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
     track,
     github_file_url: 'https://github.com/DimTony/HNGtaskONE/demo/index.js',
     github_repo_url: 'https://github.com/DimTony/HNGtaskONE',
-    status_code: "200"
+    status_code: 200
   };
 
   res.json(response);
